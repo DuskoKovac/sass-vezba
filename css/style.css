@@ -134,99 +134,144 @@ table {
   border-spacing: 0;
 }
 
+.gray header {
+  background-color: #95a5a6;
+  color: white;
+}
+.gray header .headButton {
+  background-color: #95a5a6;
+  color: white;
+}
+.gray header .headButton:hover {
+  background-color: rgb(121.2769230769, 141.4615384615, 142.7230769231);
+}
+.gray header .allOptions {
+  background-color: rgb(240.4861538462, 242.6769230769, 242.8138461538);
+  color: #95a5a6;
+}
+.gray main {
+  background-color: rgb(240.4861538462, 242.6769230769, 242.8138461538);
+  color: #95a5a6;
+}
+.gray main .imageDiv {
+  background-image: URL("../img/gray.jpg");
+  color: white;
+}
+.gray footer {
+  background-color: #95a5a6;
+  color: white;
+}
+
 .blue header {
-  background-color: #1919e6;
+  background-color: #1A73E8;
   color: white;
 }
 .blue header .headButton {
-  background-color: #1919e6;
+  background-color: #1A73E8;
   color: white;
 }
 .blue header .headButton:hover {
-  background-color: #1414b8;
+  background-color: rgb(18.8928571429, 92, 188.1071428571);
+}
+.blue header .allOptions {
+  background-color: rgb(178.9392857143, 208.5, 247.3607142857);
+  color: #1A73E8;
 }
 .blue main {
-  background-color: rgb(172.2, 172.2, 246);
-  color: #1919e6;
+  background-color: rgb(178.9392857143, 208.5, 247.3607142857);
+  color: #1A73E8;
 }
 .blue main .imageDiv {
-  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  background-image: URL("../img/blue.jpg");
+  background-size: 100% 150%;
   color: white;
 }
 .blue footer {
-  background-color: #1919e6;
+  background-color: #1A73E8;
   color: white;
 }
 
 .red header {
-  background-color: #ED4337;
+  background-color: #E84B3D;
   color: white;
 }
 .red header .headButton {
-  background-color: #ED4337;
+  background-color: #E84B3D;
   color: white;
 }
 .red header .headButton:hover {
-  background-color: rgb(221.1009174312, 33.1651376147, 19.8990825688);
+  background-color: rgb(216.3502304147, 41.2626728111, 25.6497695853);
+}
+.red header .allOptions {
+  background-color: rgb(249.8382488479, 214.6036866359, 211.4617511521);
+  color: #E84B3D;
 }
 .red main {
-  background-color: rgb(250.4752293578, 207.7412844037, 204.7247706422);
-  color: #ED4337;
+  background-color: rgb(249.8382488479, 214.6036866359, 211.4617511521);
+  color: #E84B3D;
 }
 .red main .imageDiv {
-  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  background-image: URL("../img/red.jpg");
   color: white;
 }
 .red footer {
-  background-color: #ED4337;
+  background-color: #E84B3D;
   color: white;
 }
 
 .yellow header {
-  background-color: #e6e619;
+  background-color: #DAA520;
   color: white;
 }
 .yellow header .headButton {
-  background-color: #e6e619;
+  background-color: #DAA520;
   color: white;
 }
 .yellow header .headButton:hover {
-  background-color: #b8b814;
+  background-color: rgb(173.528, 131.34, 25.472);
+}
+.yellow header .allOptions {
+  background-color: rgb(243.2624, 223.822, 175.0376);
+  color: rgb(129.056, 97.68, 18.944);
 }
 .yellow main {
-  background-color: rgb(246, 246, 172.2);
-  color: #e6e619;
+  background-color: rgb(243.2624, 223.822, 175.0376);
+  color: rgb(129.056, 97.68, 18.944);
 }
 .yellow main .imageDiv {
-  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  background-image: URL("../img/yellow.jpg");
   color: white;
 }
 .yellow footer {
-  background-color: #e6e619;
+  background-color: #DAA520;
   color: white;
 }
 
 .green header {
-  background-color: #19e635;
+  background-color: #34A853;
   color: white;
 }
 .green header .headButton {
-  background-color: #19e635;
+  background-color: #34A853;
   color: white;
 }
 .green header .headButton:hover {
-  background-color: rgb(20, 184, 42.4);
+  background-color: rgb(39.9454545455, 129.0545454545, 63.7590909091);
+}
+.green header .allOptions {
+  background-color: rgb(162.0654545455, 226.2345454545, 179.2140909091);
+  color: #34A853;
 }
 .green main {
-  background-color: rgb(172.2, 246, 182.28);
-  color: #19e635;
+  background-color: rgb(162.0654545455, 226.2345454545, 179.2140909091);
+  color: #34A853;
 }
 .green main .imageDiv {
-  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  background-image: URL("../img/green.jpg");
   color: white;
 }
 .green footer {
-  background-color: #19e635;
+  background-color: #34A853;
   color: white;
 }
 
@@ -241,12 +286,16 @@ table {
 .orange header .headButton:hover {
   background-color: rgb(204, 132.8, 0);
 }
+.orange header .allOptions {
+  background-color: rgb(255, 224.74, 168.3);
+  color: rgb(153, 99.6, 0);
+}
 .orange main {
-  background-color: rgb(255, 222.96, 163.2);
-  color: #ffa600;
+  background-color: rgb(255, 224.74, 168.3);
+  color: rgb(153, 99.6, 0);
 }
 .orange main .imageDiv {
-  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  background-image: URL("../img/orange.jpg");
   color: white;
 }
 .orange footer {
@@ -265,12 +314,16 @@ table {
 .purple header .headButton:hover {
   background-color: rgb(122.4, 0, 204);
 }
+.purple header .allOptions {
+  background-color: rgb(220.32, 168.3, 255);
+  color: #9900ff;
+}
 .purple main {
-  background-color: rgb(218.28, 163.2, 255);
+  background-color: rgb(220.32, 168.3, 255);
   color: #9900ff;
 }
 .purple main .imageDiv {
-  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  background-image: URL("../img/purple.jpg");
   color: white;
 }
 .purple footer {
@@ -290,7 +343,7 @@ main .imageDiv {
   height: 400px;
   max-width: 100%;
   background-repeat: no-repeat;
-  background-size: 100% 150%;
+  background-size: 100% 100%;
   justify-content: center;
 }
 main .imageDiv h2 {
@@ -299,6 +352,203 @@ main .imageDiv h2 {
 main .text {
   padding: 20px 0;
   text-align: center;
+}
+
+.gray header {
+  background-color: #95a5a6;
+  color: white;
+}
+.gray header .headButton {
+  background-color: #95a5a6;
+  color: white;
+}
+.gray header .headButton:hover {
+  background-color: rgb(121.2769230769, 141.4615384615, 142.7230769231);
+}
+.gray header .allOptions {
+  background-color: rgb(240.4861538462, 242.6769230769, 242.8138461538);
+  color: #95a5a6;
+}
+.gray main {
+  background-color: rgb(240.4861538462, 242.6769230769, 242.8138461538);
+  color: #95a5a6;
+}
+.gray main .imageDiv {
+  background-image: URL("../img/gray.jpg");
+  color: white;
+}
+.gray footer {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.blue header {
+  background-color: #1A73E8;
+  color: white;
+}
+.blue header .headButton {
+  background-color: #1A73E8;
+  color: white;
+}
+.blue header .headButton:hover {
+  background-color: rgb(18.8928571429, 92, 188.1071428571);
+}
+.blue header .allOptions {
+  background-color: rgb(178.9392857143, 208.5, 247.3607142857);
+  color: #1A73E8;
+}
+.blue main {
+  background-color: rgb(178.9392857143, 208.5, 247.3607142857);
+  color: #1A73E8;
+}
+.blue main .imageDiv {
+  background-image: URL("../img/blue.jpg");
+  background-size: 100% 150%;
+  color: white;
+}
+.blue footer {
+  background-color: #1A73E8;
+  color: white;
+}
+
+.red header {
+  background-color: #E84B3D;
+  color: white;
+}
+.red header .headButton {
+  background-color: #E84B3D;
+  color: white;
+}
+.red header .headButton:hover {
+  background-color: rgb(216.3502304147, 41.2626728111, 25.6497695853);
+}
+.red header .allOptions {
+  background-color: rgb(249.8382488479, 214.6036866359, 211.4617511521);
+  color: #E84B3D;
+}
+.red main {
+  background-color: rgb(249.8382488479, 214.6036866359, 211.4617511521);
+  color: #E84B3D;
+}
+.red main .imageDiv {
+  background-image: URL("../img/red.jpg");
+  color: white;
+}
+.red footer {
+  background-color: #E84B3D;
+  color: white;
+}
+
+.yellow header {
+  background-color: #DAA520;
+  color: white;
+}
+.yellow header .headButton {
+  background-color: #DAA520;
+  color: white;
+}
+.yellow header .headButton:hover {
+  background-color: rgb(173.528, 131.34, 25.472);
+}
+.yellow header .allOptions {
+  background-color: rgb(243.2624, 223.822, 175.0376);
+  color: rgb(129.056, 97.68, 18.944);
+}
+.yellow main {
+  background-color: rgb(243.2624, 223.822, 175.0376);
+  color: rgb(129.056, 97.68, 18.944);
+}
+.yellow main .imageDiv {
+  background-image: URL("../img/yellow.jpg");
+  color: white;
+}
+.yellow footer {
+  background-color: #DAA520;
+  color: white;
+}
+
+.green header {
+  background-color: #34A853;
+  color: white;
+}
+.green header .headButton {
+  background-color: #34A853;
+  color: white;
+}
+.green header .headButton:hover {
+  background-color: rgb(39.9454545455, 129.0545454545, 63.7590909091);
+}
+.green header .allOptions {
+  background-color: rgb(162.0654545455, 226.2345454545, 179.2140909091);
+  color: #34A853;
+}
+.green main {
+  background-color: rgb(162.0654545455, 226.2345454545, 179.2140909091);
+  color: #34A853;
+}
+.green main .imageDiv {
+  background-image: URL("../img/green.jpg");
+  color: white;
+}
+.green footer {
+  background-color: #34A853;
+  color: white;
+}
+
+.orange header {
+  background-color: #ffa600;
+  color: white;
+}
+.orange header .headButton {
+  background-color: #ffa600;
+  color: white;
+}
+.orange header .headButton:hover {
+  background-color: rgb(204, 132.8, 0);
+}
+.orange header .allOptions {
+  background-color: rgb(255, 224.74, 168.3);
+  color: rgb(153, 99.6, 0);
+}
+.orange main {
+  background-color: rgb(255, 224.74, 168.3);
+  color: rgb(153, 99.6, 0);
+}
+.orange main .imageDiv {
+  background-image: URL("../img/orange.jpg");
+  color: white;
+}
+.orange footer {
+  background-color: #ffa600;
+  color: white;
+}
+
+.purple header {
+  background-color: #9900ff;
+  color: white;
+}
+.purple header .headButton {
+  background-color: #9900ff;
+  color: white;
+}
+.purple header .headButton:hover {
+  background-color: rgb(122.4, 0, 204);
+}
+.purple header .allOptions {
+  background-color: rgb(220.32, 168.3, 255);
+  color: #9900ff;
+}
+.purple main {
+  background-color: rgb(220.32, 168.3, 255);
+  color: #9900ff;
+}
+.purple main .imageDiv {
+  background-image: URL("../img/purple.jpg");
+  color: white;
+}
+.purple footer {
+  background-color: #9900ff;
+  color: white;
 }
 
 header {
@@ -318,8 +568,23 @@ header .right {
   display: flex;
   justify-content: end;
 }
+header .right .headButton {
+  font-size: 16px;
+}
 header .logo .headButton {
   font-size: 28px;
+}
+header .selectTheme {
+  transform: translateX(100px);
+}
+header .allOptions {
+  font-size: 18px;
+  min-width: 15vw;
+  min-height: 30px;
+  text-align: center;
+}
+header .option {
+  font-size: 16px;
 }
 
 .card-container {
@@ -338,32 +603,6 @@ footer {
   align-items: center;
   justify-content: center;
   min-height: 50px;
-}
-
-header {
-  background-color: #95a5a6;
-  color: white;
-}
-header .headButton {
-  background-color: #95a5a6;
-  color: white;
-}
-header .headButton:hover {
-  background-color: #a69695;
-}
-
-main {
-  background-color: #ecf0f1;
-  color: #9900ff;
-}
-main .imageDiv {
-  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
-  color: white;
-}
-
-footer {
-  background-color: #95a5a6;
-  color: white;
 }
 
 * {

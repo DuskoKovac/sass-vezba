@@ -1,3 +1,5 @@
+@import "colors";
+
 header {
     display: flex;
     justify-content: space-between;
@@ -22,6 +24,10 @@ header {
         display: flex;
         justify-content: end;
 
+        .headButton {
+            font-size: 16px;
+        }
+
 
 
 
@@ -35,4 +41,26 @@ header {
             font-size: 28px;
         }
     }
+
+    .selectTheme {
+        transform: translateX(100px);
+
+
+    }
+
+    .allOptions {
+        font-size: 18px;
+        min-width: 15vw;
+        min-height: 30px;
+        text-align: center;
+
+
+    }
+
+    .option {
+        font-size: 16px;
+
+
+    }
+
 }
