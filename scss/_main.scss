@@ -1,0 +1,44 @@
+main {
+
+    height: 100%;
+    font-size: 18px;
+
+
+
+
+
+    .imageDiv {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-left: 15px;
+        height: 400px;
+        max-width: 100%;
+
+        background-repeat: no-repeat;
+        background-size: 100% 150%;
+
+        justify-content: center;
+
+        h2 {
+            font-size: 32px;
+
+
+        }
+
+
+
+
+    }
+
+    .text {
+        padding: 20px 0;
+        text-align: center;
+
+    }
+
+
+
+
+
+}

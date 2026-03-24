@@ -1,0 +1,93 @@
+@import "mixin";
+
+$base-darker: #95a5a6;
+$base-lighter: #ecf0f1;
+$base-hover: complement($base-darker);
+
+$blue-darker: #1919e6;
+$blue-lighter: lighten($blue-darker, 32);
+$blue-hover: complement($blue-darker);
+
+$red-darker: #e61919;
+$red-lighter: lighten($red-darker, 32);
+$red-hover: complement($red-darker);
+
+$yellow-darker: #e6e619;
+$yellow-lighter: lighten($yellow-darker, 32);
+$yellow-hover: complement($yellow-darker);
+
+
+$green-darker: #19e635;
+$green-lighter: lighten($green-darker, 32);
+$green-hover: complement($green-darker);
+
+
+$orange-darker: #ffa600;
+$orange-lighter: lighten($orange-darker, 32);
+$orange-hover: complement($orange-darker);
+
+
+$purple-darker: #9900ff;
+$purple-larker: lighten($purple-darker, 32);
+$purple-hover: complement($purple-darker);
+
+
+
+$baseTextColor: white;
+$secondTextColor: $base-darker;
+$hoverTextColor: black;
+
+
+
+$colors: (
+    "blue": #1919e6,
+    "red": #ED4337,
+    "yellow": #e6e619,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple": #9900ff,
+);
+
+
+//pravljenje klasa za boju slova i boju pozadine iz mape boja
+@each $key, $value in $colors {
+    $color-darker: $value;
+    $color-lighter: lighten($color-darker, 32);
+    // $color-hover: complement($color-darker);
+    $color-hover: darken($color-darker, 10);
+    // $baseTextColor: $color-darker;
+    $secondTextColor: $color-darker;
+
+    .#{$key} {
+        header {
+            background-color: $color-darker;
+            color: $baseTextColor;
+
+            .headButton {
+                background-color: $color-darker;
+                color: $baseTextColor;
+
+                &:hover {
+                    background-color: $color-hover;
+                }
+
+            }
+        }
+
+        main {
+            background-color: $color-lighter;
+            color: $secondTextColor;
+
+            .imageDiv {
+                background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+                color: $baseTextColor;
+            }
+        }
+
+        footer {
+            background-color: $color-darker;
+            color: $baseTextColor;
+        }
+
+    }
+}

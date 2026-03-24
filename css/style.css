@@ -1,0 +1,380 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.blue header {
+  background-color: #1919e6;
+  color: white;
+}
+.blue header .headButton {
+  background-color: #1919e6;
+  color: white;
+}
+.blue header .headButton:hover {
+  background-color: #1414b8;
+}
+.blue main {
+  background-color: rgb(172.2, 172.2, 246);
+  color: #1919e6;
+}
+.blue main .imageDiv {
+  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  color: white;
+}
+.blue footer {
+  background-color: #1919e6;
+  color: white;
+}
+
+.red header {
+  background-color: #ED4337;
+  color: white;
+}
+.red header .headButton {
+  background-color: #ED4337;
+  color: white;
+}
+.red header .headButton:hover {
+  background-color: rgb(221.1009174312, 33.1651376147, 19.8990825688);
+}
+.red main {
+  background-color: rgb(250.4752293578, 207.7412844037, 204.7247706422);
+  color: #ED4337;
+}
+.red main .imageDiv {
+  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  color: white;
+}
+.red footer {
+  background-color: #ED4337;
+  color: white;
+}
+
+.yellow header {
+  background-color: #e6e619;
+  color: white;
+}
+.yellow header .headButton {
+  background-color: #e6e619;
+  color: white;
+}
+.yellow header .headButton:hover {
+  background-color: #b8b814;
+}
+.yellow main {
+  background-color: rgb(246, 246, 172.2);
+  color: #e6e619;
+}
+.yellow main .imageDiv {
+  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  color: white;
+}
+.yellow footer {
+  background-color: #e6e619;
+  color: white;
+}
+
+.green header {
+  background-color: #19e635;
+  color: white;
+}
+.green header .headButton {
+  background-color: #19e635;
+  color: white;
+}
+.green header .headButton:hover {
+  background-color: rgb(20, 184, 42.4);
+}
+.green main {
+  background-color: rgb(172.2, 246, 182.28);
+  color: #19e635;
+}
+.green main .imageDiv {
+  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  color: white;
+}
+.green footer {
+  background-color: #19e635;
+  color: white;
+}
+
+.orange header {
+  background-color: #ffa600;
+  color: white;
+}
+.orange header .headButton {
+  background-color: #ffa600;
+  color: white;
+}
+.orange header .headButton:hover {
+  background-color: rgb(204, 132.8, 0);
+}
+.orange main {
+  background-color: rgb(255, 222.96, 163.2);
+  color: #ffa600;
+}
+.orange main .imageDiv {
+  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  color: white;
+}
+.orange footer {
+  background-color: #ffa600;
+  color: white;
+}
+
+.purple header {
+  background-color: #9900ff;
+  color: white;
+}
+.purple header .headButton {
+  background-color: #9900ff;
+  color: white;
+}
+.purple header .headButton:hover {
+  background-color: rgb(122.4, 0, 204);
+}
+.purple main {
+  background-color: rgb(218.28, 163.2, 255);
+  color: #9900ff;
+}
+.purple main .imageDiv {
+  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  color: white;
+}
+.purple footer {
+  background-color: #9900ff;
+  color: white;
+}
+
+main {
+  height: 100%;
+  font-size: 18px;
+}
+main .imageDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 15px;
+  height: 400px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+  justify-content: center;
+}
+main .imageDiv h2 {
+  font-size: 32px;
+}
+main .text {
+  padding: 20px 0;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  margin-bottom: 3px;
+  align-items: center;
+  padding: 0 15px;
+}
+header .headButton {
+  border: 0;
+  height: 50px;
+  width: 100px;
+}
+header .right {
+  display: flex;
+  justify-content: end;
+}
+header .logo .headButton {
+  font-size: 28px;
+}
+
+.card-container {
+  display: flex;
+  max-width: 100vw;
+  justify-content: space-evenly;
+}
+.card-container .card {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+}
+
+header {
+  background-color: #95a5a6;
+  color: white;
+}
+header .headButton {
+  background-color: #95a5a6;
+  color: white;
+}
+header .headButton:hover {
+  background-color: #a69695;
+}
+
+main {
+  background-color: #ecf0f1;
+  color: #9900ff;
+}
+main .imageDiv {
+  background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+  color: white;
+}
+
+footer {
+  background-color: #95a5a6;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

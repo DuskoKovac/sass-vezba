@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+
+    margin-bottom: 3px;
+    align-items: center;
+    padding: 0 15px;
+
+    .headButton {
+        border: 0;
+        height: 50px;
+        width: 100px;
+
+
+
+
+    }
+
+
+    .right {
+        display: flex;
+        justify-content: end;
+
+
+
+
+    }
+
+    .logo {
+
+
+        .headButton {
+
+            font-size: 28px;
+        }
+    }
+}

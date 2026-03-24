@@ -1,0 +1,65 @@
+@mixin base-theme() {
+    header {
+        background-color: $base-darker;
+        color: $baseTextColor;
+
+        .headButton {
+            background-color: $base-darker;
+            color: $baseTextColor;
+
+            &:hover {
+                background-color: $base-hover;
+            }
+
+        }
+    }
+
+    main {
+        background-color: $base-lighter;
+        color: $secondTextColor;
+
+        .imageDiv {
+            background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+            color: $baseTextColor;
+        }
+    }
+
+    footer {
+        background-color: $base-darker;
+        color: $baseTextColor;
+    }
+
+}
+
+// @mixin theme($themeColor) {
+//     header {
+//         background-color: #{$themeColor}-darker;
+//         color: $baseTextColor;
+
+//         .headButton {
+//             background-color: #{$themeColor}-darker;
+//             color: $baseTextColor;
+
+//             &:hover {
+//                 background-color: #{$themeColor}-hover;
+//             }
+
+//         }
+//     }
+
+//     main {
+//         background-color: #{$themeColor}-lighter;
+//         color: $secondTextColor;
+
+//         .imageDiv {
+//             background-image: url("../img/okinawa-scenery-wallpaper.jpg");
+//             color: $baseTextColor;
+//         }
+//     }
+
+//     footer {
+//         background-color: #{$themeColor}-darker;
+//         color: $baseTextColor;
+//     }
+
+// }
