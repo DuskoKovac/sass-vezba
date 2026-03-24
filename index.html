@@ -8,19 +8,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="red">
+<body>
     <header>
         <ul class="logo">
             <li><input class="headButton" type="button" value="LOGO"></li>
         </ul>
+        <div class="selectTheme">
+            <label for="themes">Choose a Theme: </label>
+            <select name="themes" id="themes">
+                <option value="gray" selected>Gray</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="orange">Orange</option>
+                <option value="purple">Purple</option>
+            </select>
 
+        </div>
 
-        <!-- <ul class="right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-        </ul> -->
         <ul class="right">
             <li><input class="headButton" type="button" value="Link 1"></li>
             <li><input class="headButton" type="button" value="Link 2"></li>
@@ -71,6 +77,8 @@
         </div>
     </main>
     <footer>&copy; Copyright Lalalend D.O.O 2014</footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
