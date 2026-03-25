@@ -1,0 +1,40 @@
+@use "sass:math";
+@use "sass:map";
+@use "sass:list";
+
+
+
+$gray: (
+    "1": URL("../img/Gray/1.jpg"),
+    "2": URL("../img/Gray/2.jpg"),
+    "3": URL("../img/Gray/3.jpg"),
+    "4": URL("../img/Gray/4.jpg"),
+    "5": URL("../img/Gray/5.jpg"),
+    "6": URL("../img/Gray/6.jpg"),
+    "7": URL("../img/Gray/7.jpg"),
+    "8": URL("../img/Gray/8.jpg"),
+    "9": URL("../img/Gray/9.jpg"),
+    "10": URL("../img/Gray/10.jpg"),
+    "11": URL("../img/Gray/11.jpg"),
+    "12": URL("../img/Gray/12.jpg"),
+    "13": URL("../img/Gray/13.jpg"),
+    "14": URL("../img/Gray/14.jpg"),
+    "15": URL("../img/Gray/15.jpg"),
+);
+
+@function random-img($map) {
+    $all-keys: map.keys($map);
+    $list-length: list.length($all-keys);
+    $random-index: math.random($list-length);
+    $random-key: list.nth($all-keys, $random-index);
+
+    @each $key, $value in $map {
+        @if($key ==$random-key) {
+            $smallImg : $value;
+            @return $smallImg;
+        }
+
+
+    }
+
+}

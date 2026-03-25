@@ -183,7 +183,7 @@ table {
 }
 .blue main .imageDiv {
   background-image: URL("../img/blue.jpg");
-  background-size: 100% 150%;
+  background-size: 100vw 150%;
   color: white;
 }
 .blue footer {
@@ -403,7 +403,7 @@ main .text {
 }
 .blue main .imageDiv {
   background-image: URL("../img/blue.jpg");
-  background-size: 100% 150%;
+  background-size: 100vw 150%;
   color: white;
 }
 .blue footer {
@@ -557,12 +557,12 @@ header {
   min-height: 50px;
   margin-bottom: 3px;
   align-items: center;
-  padding: 0 15px;
+  padding: 0 10px;
 }
 header .headButton {
   border: 0;
   height: 50px;
-  width: 100px;
+  width: 150px;
 }
 header .right {
   display: flex;
@@ -593,9 +593,16 @@ header .option {
   justify-content: space-evenly;
 }
 .card-container .card {
+  width: 33vW;
   text-align: center;
   font-size: 20px;
   padding: 20px;
+}
+.card-container .card .smallImg {
+  border-radius: 75px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
 }
 
 footer {

@@ -1,0 +1,142 @@
+[
+  {
+    
+    "color" : "gray",
+    "images": {"url":"./img/gray/1.jpg",
+	       "url":"../img/gray/2.jpg",
+	      "url":"../img/gray/3.jpg",
+              "url":"../img/gray/4.jpg",
+               "url":"../img/gray/5.jpg",
+               "url":"../img/gray/6.jpg",
+               "url":"../img/gray/7.jpg",
+               "url":"../img/gray/8.jpg",
+               "url":"../img/gray/9.jpg",
+               "url":"../img/gray/10.jpg",
+               "url":"../img/gray/11.jpg",
+               "url":"../img/gray/12.jpg",
+               "url":"../img/gray/13.jpg",
+               "url":"../img/gray/14.jpg",
+               "url":"../img/gray/15.jpg"	      
+	      }
+  },
+  {
+    
+    "color" : "red",
+    "images": {"url":"./img/red/1.jpg",
+	       "url":"../img/red/2.jpg",
+	       "url":"../img/red/3.jpg",
+               "url":"../img/red/4.jpg",
+               "url":"../img/red/5.jpg",
+               "url":"../img/red/6.jpg",
+               "url":"../img/red/7.jpg",
+               "url":"../img/red/8.jpg",
+               "url":"../img/red/9.jpg",
+               "url":"../img/red/10.jpg",
+               "url":"../img/red/11.jpg",
+               "url":"../img/red/12.jpg",
+               "url":"../img/red/13.jpg",
+               "url":"../img/red/14.jpg",
+               "url":"../img/red/15.jpg"	      
+	      }
+  },
+  {
+    
+    "color" : "green",
+    "images": {"url":"./img/green/1.jpg",
+	       "url":"../img/green/2.jpg",
+	       "url":"../img/green/3.jpg",
+               "url":"../img/green/4.jpg",
+               "url":"../img/green/5.jpg",
+               "url":"../img/green/6.jpg",
+               "url":"../img/green/7.jpg",
+               "url":"../img/green/8.jpg",
+               "url":"../img/green/9.jpg",
+               "url":"../img/green/10.jpg",
+               "url":"../img/green/11.jpg",
+               "url":"../img/green/12.jpg",
+               "url":"../img/green/13.jpg",
+               "url":"../img/green/14.jpg",
+               "url":"../img/green/15.jpg"	      
+	      }
+  },
+  {
+    
+    "color" : "blue",
+    "images": {"url":"./img/blue/1.jpg",
+	       "url":"../img/blue/2.jpg",
+	       "url":"../img/blue/3.jpg",
+               "url":"../img/blue/4.jpg",
+               "url":"../img/blue/5.jpg",
+               "url":"../img/blue/6.jpg",
+               "url":"../img/blue/7.jpg",
+               "url":"../img/blue/8.jpg",
+               "url":"../img/blue/9.jpg",
+               "url":"../img/blue/10.jpg",
+               "url":"../img/blue/11.jpg",
+               "url":"../img/blue/12.jpg",
+               "url":"../img/blue/13.jpg",
+               "url":"../img/blue/14.jpg",
+               "url":"../img/blue/15.jpg"	      
+	      }
+  },
+  {
+    
+    "color" : "yellow",
+    "images": {"url":"./img/yellow/1.jpg",
+	       "url":"../img/yellow/2.jpg",
+	       "url":"../img/yellow/3.jpg",
+               "url":"../img/yellow/4.jpg",
+               "url":"../img/yellow/5.jpg",
+               "url":"../img/yellow/6.jpg",
+               "url":"../img/yellow/7.jpg",
+               "url":"../img/yellow/8.jpg",
+               "url":"../img/yellow/9.jpg",
+               "url":"../img/yellow/10.jpg",
+               "url":"../img/yellow/11.jpg",
+               "url":"../img/yellow/12.jpg",
+               "url":"../img/yellow/13.jpg",
+               "url":"../img/yellow/14.jpg",
+               "url":"../img/yellow/15.jpg"	      
+	      }
+  },
+  {
+    
+    "color" : "orange",
+    "images": {"url":"./img/orange/1.jpg",
+	       "url":"../img/orange/2.jpg",
+	       "url":"../img/orange/3.jpg",
+               "url":"../img/orange/4.jpg",
+               "url":"../img/orange/5.jpg",
+               "url":"../img/orange/6.jpg",
+               "url":"../img/orange/7.jpg",
+               "url":"../img/orange/8.jpg",
+               "url":"../img/orange/9.jpg",
+               "url":"../img/orange/10.jpg",
+               "url":"../img/orange/11.jpg",
+               "url":"../img/orange/12.jpg",
+               "url":"../img/orange/13.jpg",
+               "url":"../img/orange/14.jpg",
+               "url":"../img/orange/15.jpg"	      
+	      }
+  },
+  {
+    
+    "color" : "purple",
+    "images": {"url":"../img/purple/1.jpg",
+	       "url":"../img/purple/2.jpg",
+	       "url":"../img/purple/3.jpg",
+               "url":"../img/purple/4.jpg",
+               "url":"../img/purple/5.jpg",
+               "url":"../img/purple/6.jpg",
+               "url":"../img/purple/7.jpg",
+               "url":"../img/purple/8.jpg",
+               "url":"../img/purple/9.jpg",
+               "url":"../img/purple/10.jpg",
+               "url":"../img/purple/11.jpg",
+               "url":"../img/purple/12.jpg",
+               "url":"../img/purple/13.jpg",
+               "url":"../img/purple/14.jpg",
+               "url":"../img/purple/15.jpg"	      
+	      }
+  }
+]

@@ -66,17 +66,21 @@ $colors: (
                 background-image: URL("../img/#{$key}.jpg");
 
                 @if($key =="blue") {
-                    background-size: 100% 150%;
+                    background-size: 100vw 150%;
                 }
 
                 color: $baseTextColor;
             }
+
+
         }
 
         footer {
             background-color: $color-darker;
             color: $baseTextColor;
         }
+
+
 
     }
 }
