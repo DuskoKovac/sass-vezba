@@ -14,11 +14,17 @@ header {
         height: 50px;
         width: 150px;
 
-
-
-
+        @media (max-width: 900px) {
+            width: 120px;
+            white-space: normal;
+        }
     }
 
+    @media (max-width: 600px) {
+        .selectTheme {
+            width: 200px;
+        }
+    }
 
     .right {
         display: flex;
@@ -34,7 +40,9 @@ header {
     }
 
     .logo {
-
+        @media (max-width: 600px) {
+            display: none;
+        }
 
         .headButton {
 
@@ -42,17 +50,11 @@ header {
         }
     }
 
-    .selectTheme {
-        transform: translateX(100px);
-
-
-    }
-
     .allOptions {
         font-size: 18px;
         min-width: 15vw;
         min-height: 30px;
-        text-align: center;
+
 
 
     }
@@ -62,5 +64,9 @@ header {
 
 
     }
+
+
+
+
 
 }
