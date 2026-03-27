@@ -1,8 +1,6 @@
 $baseTextColor: white;
 $hoverTextColor: black;
 
-
-
 $colors: (
     "gray":#95a5a6,
     "blue": #1A73E8,
@@ -13,16 +11,12 @@ $colors: (
     "purple": #9900ff,
 );
 
-
-//pravljenje klasa za boju slova i boju pozadine iz mape boja
 @each $key, $value in $colors {
     $color-darker: $value;
     $color-lighter: lighten($color-darker, 33);
-    // $color-hover: complement($color-darker);
     $color-hover: darken($color-darker, 10);
     $secondTextColor: $color-darker;
 
-    // $baseTextColor: $color-darker;
     @if($key =="yellow") {
         $secondTextColor: darken($color-darker, 20);
     }
@@ -30,10 +24,6 @@ $colors: (
     @else if($key =="orange") {
         $secondTextColor: darken($color-darker, 20);
     }
-
-
-
-    // $secondTextColor: $color-darker;
 
     .#{$key} {
         header {
@@ -47,15 +37,12 @@ $colors: (
                 &:hover {
                     background-color: $color-hover;
                 }
-
             }
 
             .allOptions {
                 background-color: $color-lighter;
                 color: $secondTextColor;
             }
-
-
         }
 
         main {
@@ -71,16 +58,11 @@ $colors: (
 
                 color: $baseTextColor;
             }
-
-
         }
 
         footer {
             background-color: $color-darker;
             color: $baseTextColor;
         }
-
-
-
     }
 }

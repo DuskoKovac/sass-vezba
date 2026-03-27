@@ -1,12 +1,15 @@
 main {
-
-    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;
     font-size: 18px;
+    flex: 1;
 
     .imageDiv {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 5px;
         padding-left: 15px;
         height: 400px;
         max-width: 100%;
@@ -20,15 +23,15 @@ main {
     }
 
     .textJoke {
-        padding: 20px 60px;
+        padding: 20px;
         text-align: center;
-
-
+        height: 100px;
+        white-space: normal;
     }
 
     div {
         &.textJoke {
-            font-size: 26px;
+            font-size: 22px;
 
             @media (max-width: 600px) {
                 font-size: 20px;

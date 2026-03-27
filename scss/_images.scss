@@ -2,8 +2,6 @@
 @use "sass:map";
 @use "sass:list";
 
-
-
 $gray: (
     "1": URL("../img/Gray/1.jpg"),
     "2": URL("../img/Gray/2.jpg"),
@@ -33,8 +31,5 @@ $gray: (
             $smallImg : $value;
             @return $smallImg;
         }
-
-
     }
-
 }
