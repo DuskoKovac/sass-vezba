@@ -32,8 +32,6 @@ function getImages(value) {
     ]);
 };
 
-var images = getImages(bodyClass);
-
 async function getUrl(url) {
     var response = await fetch(url);
     var data = await response.json();
@@ -56,18 +54,18 @@ changeTextEl.addEventListener("click", function () {
 });
 
 window.addEventListener("load", function () {
-    randomize(images, bodyClass);
+    randomize(bodyClass);
     getAllUrls(textUrlList);
 });
 
 selectOptionEl.addEventListener("change", function (event) {
     var selectedTheme = event.target.value;
     bodyEl.setAttribute("class", selectedTheme);
-    randomize(images, bodyClass);
+    randomize(bodyClass);
 });
 
 changeSmallEl.addEventListener("click", function () {
-    randomize(images, bodyClass);
+    randomize(bodyClass);
 });
 
 function randomize(theme) {
