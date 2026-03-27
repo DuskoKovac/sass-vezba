@@ -32,7 +32,7 @@ function getImages(value) {
     ]);
 };
 
-var images = getAllUrls(bodyClass);
+var images = getImages(bodyClass);
 
 async function getUrl(url) {
     var response = await fetch(url);
