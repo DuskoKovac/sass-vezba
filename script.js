@@ -1,12 +1,13 @@
-var bodyEl = document.querySelector("body");
-var selectOptionEl = document.getElementById("themes");
-var smallImgElements = document.getElementsByClassName("smallImg");
-var changeSmallEl = document.getElementById("changeSmall");
-var imageDivEl = document.getElementById("imageDiv");
-var bodyClass = bodyEl.getAttribute("class");
-var textJokeElements = document.getElementsByClassName("textJoke");
-var changeTextEl = document.getElementById("changeText");
-var textUrlList = [
+
+const bodyEl = document.querySelector("body");
+const selectOptionEl = document.getElementById("themes");
+const smallImgElements = document.getElementsByClassName("smallImg");
+const changeSmallEl = document.getElementById("changeSmall");
+const imageDivEl = document.getElementById("imageDiv");
+const bodyClass = bodyEl.getAttribute("class");
+const textJokeElements = document.getElementsByClassName("textJoke");
+const changeTextEl = document.getElementById("changeText");
+const textUrlList = [
     "https://api.chucknorris.io/jokes/random",
     "https://api.chucknorris.io/jokes/random",
     "https://api.chucknorris.io/jokes/random",
@@ -32,20 +33,23 @@ function getImages(value) {
     ]);
 };
 
+
+
+
 async function getUrl(url) {
-    var response = await fetch(url);
-    var data = await response.json();
+    let response = await fetch(url);
+    let data = await response.json();
     return data;
 };
 
 async function getAllUrls(allUrls) {
-    var promises = allUrls.map(function (url) {
+    let promises = allUrls.map(function (url) {
         return getUrl(url);
     });
-    var results = await Promise.all(promises);
+    let results = await Promise.all(promises);
     for (i = 0; i < textJokeElements.length; i++) {
         textJokeElements[i].innerHTML = results[i].value
-        console.log(textJokeElements[i], results[i].value);
+
     }
 }
 
@@ -59,7 +63,7 @@ window.addEventListener("load", function () {
 });
 
 selectOptionEl.addEventListener("change", function (event) {
-    var selectedTheme = event.target.value;
+    let selectedTheme = event.target.value;
     bodyEl.setAttribute("class", selectedTheme);
     randomize(bodyClass);
 });
@@ -70,10 +74,10 @@ changeSmallEl.addEventListener("click", function () {
 
 function randomize(theme) {
     theme = bodyEl.getAttribute("class");
-    var images = getImages(theme);
-    for (var i = images.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var k = images[i];
+    let images = getImages(theme);
+    for (let i = images.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let k = images[i];
         images[i] = images[j];
         images[j] = k;
     }
